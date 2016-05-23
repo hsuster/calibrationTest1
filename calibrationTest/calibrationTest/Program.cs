@@ -28,12 +28,26 @@ namespace calibrationTest
             calibrationGroup3.itemTotal = "myItemTotal3";
             calibrationGroup3.itemBase = "myItemBase3";
 
-            Console.WriteLine(calibrationGroup1.groupTitle);
-            Console.WriteLine(calibrationGroup1.itemBase);
-            Console.WriteLine(calibrationGroup2.groupTitle);
-            Console.WriteLine(calibrationGroup2.itemBase);
-            Console.WriteLine(calibrationGroup3.groupTitle);
-            Console.WriteLine(calibrationGroup3.itemBase);
+            //Console.WriteLine(calibrationGroup1.groupTitle);
+            //Console.WriteLine(calibrationGroup1.itemBase);
+            //Console.WriteLine(calibrationGroup2.groupTitle);
+            //Console.WriteLine(calibrationGroup2.itemBase);
+            //Console.WriteLine(calibrationGroup3.groupTitle);
+            //Console.WriteLine(calibrationGroup3.itemBase);
+
+            var child1 = new CalibrationGroup { itemTitle = "Hello from first (1) child", itemBase = "child1's base" };
+
+            var grandChild1 = new CalibrationItem { itemTitle = "Hello from grand child!!!" };
+
+            child1.myItems.Add(grandChild1);
+
+            var child2 = new CalibrationItem { itemTitle = "Hello from second (2) child", itemBase = "child2's base" };
+            calibrationGroup1.myItems.Add(child1);
+            calibrationGroup1.myItems.Add(child2);
+
+            Console.WriteLine(calibrationGroup1.PrintNode(0));
+
+            Console.ReadKey();
 
         }
     }
