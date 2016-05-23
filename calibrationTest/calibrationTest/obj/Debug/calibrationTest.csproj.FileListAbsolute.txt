@@ -1,0 +1,6 @@
+C:\Users\andre\Source\Repos\calibrationTest\calibrationTest\calibrationTest\bin\Debug\calibrationTest.exe.config
+C:\Users\andre\Source\Repos\calibrationTest\calibrationTest\calibrationTest\bin\Debug\calibrationTest.exe
+C:\Users\andre\Source\Repos\calibrationTest\calibrationTest\calibrationTest\bin\Debug\calibrationTest.pdb
+C:\Users\andre\Source\Repos\calibrationTest\calibrationTest\calibrationTest\obj\Debug\calibrationTest.csprojResolveAssemblyReference.cache
+C:\Users\andre\Source\Repos\calibrationTest\calibrationTest\calibrationTest\obj\Debug\calibrationTest.exe
+C:\Users\andre\Source\Repos\calibrationTest\calibrationTest\calibrationTest\obj\Debug\calibrationTest.pdb
